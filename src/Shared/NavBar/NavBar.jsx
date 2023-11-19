@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png'
 const NavBar = () => {
   return (
-    <div className="navbar max-w-screen-xl w-full fixed z-10 bg-white">
+    <div className="navbar h-24 max-w-screen-xl w-full fixed z-10 bg-gray-200 opacity-80">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,52 +26,85 @@ const NavBar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Home</a>
+              <Link>Home</Link>
             </li>
             <li>
-              <a>Service</a>
+              <Link>About Us</Link>
+            </li>
+            <li>
+              <Link>Service</Link>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <Link>Submenu 1</Link>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <Link>Submenu 2</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Contact Us</a>
+              <Link>Industry We Serve</Link>
+            </li>
+            <li>
+              <Link>Countries We Serve</Link>
+            </li>
+            <li>
+              <Link>Available Jobs</Link>
+            </li>
+            <li>
+              <Link>Contact Us</Link>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl"><img className='w-[100px]' src={logo} alt="" /></a>
+        <a className="btn btn-ghost text-xl"><img className='w-full' src={logo} alt="" /></a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <Link>Home</Link>
           </li>
-          <li tabIndex={0}>
+          <li>
+            <Link>About Us</Link>
+          </li>
+          <li className='' tabIndex={0}>
             <details>
               <summary className='text-orange-500 font-bold'>Service</summary>
               <ul className="p-2 ">
                 <li>
-                  <a className=''>Submenu 1</a>
+                  <Link className=''>Global Recruitment Services </Link>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <Link>Immigration & Visa services </Link>
+                </li>
+                <li>
+                  <Link>Air Ticket </Link>
+                </li>
+                <li>
+                  <Link>Placement Staffing service </Link>
+                </li>
+                <li>
+                  <Link>Outsourcing payroll compliance services</Link>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a>Contact Us</a>
-          </li>
+              <Link>Industry We Serve</Link>
+            </li>
+            <li>
+              <Link>Countries We Serve</Link>
+            </li>
+            <li>
+              <Link>Available Jobs</Link>
+            </li>
+            <li>
+              <Link>Contact Us</Link>
+            </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      {/* <div className="navbar-end">
         <a className="btn btn-warning">Get Start</a>
-      </div>
+      </div> */}
     </div>
   );
 };

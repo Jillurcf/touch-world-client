@@ -6,18 +6,18 @@ import slideImg3 from '../../../assets/Bannerimg/airoplane3.jpg'
 const Slider = () => {
     return (
         <div className="">
-            <Carousel>
+            <Carousel className="">
                 <div>
-                    <img src={slideImg1} />
-                    <p className="legend">Legend 1</p>
+                    <img className="" src={slideImg1} />
+                    <p className="legend">VSA SERVICES</p>
                 </div>
                 <div>
                     <img src={slideImg2} />
-                    <p className="legend">Legend 2</p>
+                    <p className="legend">AIR TICKET</p>
                 </div>
                 <div>
                     <img src={slideImg3} />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend">IMIGRATION</p>
                 </div>
             </Carousel>
         </div>
