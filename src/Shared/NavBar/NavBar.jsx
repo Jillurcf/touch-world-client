@@ -67,22 +67,22 @@ const NavBar = () => {
             <Link>About Us</Link>
           </li>
           <li className='' tabIndex={0}>
-            <details>
+            <details className=''>
               <summary className='text-orange-500 font-bold'>Service</summary>
-              <ul className="p-2 ">
+              <ul className="p-2  bg-orange-500 text-gray">
                 <li>
-                  <Link className=''>Global Recruitment Services </Link>
+                  <Link className='w-60'>Global Recruitment Services </Link>
                 </li>
-                <li>
+                <li className='w-60'>
                   <Link>Immigration & Visa services </Link>
                 </li>
-                <li>
+                <li className='w-60'>
                   <Link>Air Ticket </Link>
                 </li>
-                <li>
+                <li className='w-60'>
                   <Link>Placement Staffing service </Link>
                 </li>
-                <li>
+                <li className='w-72'>
                   <Link>Outsourcing payroll compliance services</Link>
                 </li>
               </ul>
