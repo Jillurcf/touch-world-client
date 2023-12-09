@@ -2,9 +2,9 @@ import logo from '../../assets/logo.png'
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-white border border-blue-950 text-base-content">
+        <footer className="footer p-10 bg-blue-300 border text-blue-950">
   <aside>
-    <img className='w-[100px]' src={logo} alt="" />
+    <img className='w-[200px]' src={logo} alt="" />
     <p>Touch world Ltd.<br/>Providing reliable tech since 1992</p>
   </aside> 
   <nav>

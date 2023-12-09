@@ -2,7 +2,7 @@ import { Link} from "react-router-dom";
 import { FaFacebook, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
 const TopNavBar = () => {
   const navLinks = <>
-   <li><Link className="text-white hover:bg-orange-400">Recruitment Procedures</Link></li>
+   <li><Link to='/reqruitmentprocess' className="text-white hover:bg-orange-400">Recruitment Procedures</Link></li>
    <li><Link className="text-white hover:bg-orange-400">News & Insights </Link></li>
    <li><Link className="text-white hover:bg-orange-400">Gallery  </Link></li>
    <li><Link className="text-white hover:bg-orange-400">Post your resume </Link></li>

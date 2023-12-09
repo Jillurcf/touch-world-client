@@ -69,7 +69,7 @@ const NavBar = () => {
           <li className='' tabIndex={0}>
             <details className=''>
               <summary className='text-orange-500 font-bold'>Service</summary>
-              <ul className="p-2  bg-orange-500 text-gray">
+              <ul className="p-2 ">
                 <li>
                   <Link className='w-60'>Global Recruitment Services </Link>
                 </li>
