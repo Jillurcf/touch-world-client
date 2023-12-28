@@ -34,11 +34,20 @@ const NavBar = () => {
             <li>
               <Link>Service</Link>
               <ul className="p-2">
-                <li>
-                  <Link>Submenu 1</Link>
+              <li>
+                  <Link to="/globalrecruitment" className='w-60'>Global Recruitment Services </Link>
                 </li>
-                <li>
-                  <Link>Submenu 2</Link>
+                <li className='w-60'>
+                  <Link to="/immigrationVisa">Visa services & Immigration </Link>
+                </li>
+                <li className='w-60'>
+                  <Link to="/airTicket">Air Ticket </Link>
+                </li>
+                <li className='w-72'>
+                  <Link to="/outSourcing">Outsourcing payroll compliance services</Link>
+                </li>
+                <li className='w-60'>
+                  <Link to="/sdcoverseas">Skill Development Center</Link>
                 </li>
               </ul>
             </li>
@@ -71,19 +80,19 @@ const NavBar = () => {
               <summary className='text-orange-500 font-bold'>Service</summary>
               <ul className="p-2 ">
                 <li>
-                  <Link className='w-60'>Global Recruitment Services </Link>
+                  <Link to="/globalrecruitment" className='w-60'>Global Recruitment Services </Link>
                 </li>
                 <li className='w-60'>
-                  <Link>Immigration & Visa services </Link>
+                  <Link to="/immigrationVisa">Visa services & Immigration</Link>
                 </li>
                 <li className='w-60'>
-                  <Link>Air Ticket </Link>
-                </li>
-                <li className='w-60'>
-                  <Link>Placement Staffing service </Link>
+                  <Link to="/airTicket">Air Ticket </Link>
                 </li>
                 <li className='w-72'>
-                  <Link>Outsourcing payroll compliance services</Link>
+                  <Link to="/outSourcing">Outsourcing payroll compliance services</Link>
+                </li>
+                <li className='w-60'>
+                  <Link to="/sdcoverseas">Skill Development Center</Link>
                 </li>
               </ul>
             </details>

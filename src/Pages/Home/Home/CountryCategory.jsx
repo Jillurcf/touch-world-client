@@ -49,7 +49,7 @@ const CountryCategory = () => {
       </SwiperSlide>
       <SwiperSlide>
         <img src={slide1} alt="" />
-        <h3 className="text-2xl text-center upercase -mt-36 font-bold text-white">Global Recruitment <br /> Services </h3>
+        <h3 className="text-2xl text-center upercase -mt-36 font-bold text-white">SDC Overseas <br /> Technical Training & <br /> Testing Center</h3>
         </SwiperSlide>
       
     </Swiper>

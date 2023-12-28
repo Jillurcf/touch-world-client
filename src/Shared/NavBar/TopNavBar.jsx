@@ -20,8 +20,8 @@ const TopNavBar = () => {
             </ul>
           </div>
           <div className="btn btn-ghost text-xl lg:flex hidden">
-            <h1 className="text-sm text-orange-200 text-start">01643989705</h1>
-            <p className="text-sm text-orange-200">saifulone2021@gmail.com</p>
+            <h1 className="text-sm text-orange-200 text-start">+88 01787471777</h1>
+            <p className="text-sm text-orange-200">touchworldint@gmail.com</p>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
