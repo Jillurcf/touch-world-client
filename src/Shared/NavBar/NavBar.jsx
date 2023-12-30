@@ -29,7 +29,7 @@ const NavBar = () => {
               <Link>Home</Link>
             </li>
             <li>
-              <Link>About Us</Link>
+              <Link to="/aboutus">About Us</Link>
             </li>
             <li>
               <Link>Service</Link>
@@ -55,13 +55,13 @@ const NavBar = () => {
               <Link>Industry We Serve</Link>
             </li>
             <li>
-              <Link>Countries We Serve</Link>
+              <Link to="/countryWeServe">Countries We Serve</Link>
             </li>
             <li>
               <Link>Available Jobs</Link>
             </li>
             <li>
-              <Link>Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -73,7 +73,7 @@ const NavBar = () => {
             <Link>Home</Link>
           </li>
           <li>
-            <Link>About Us</Link>
+            <Link to="/aboutus">About Us</Link>
           </li>
           <li className='' tabIndex={0}>
             <details className=''>
@@ -101,13 +101,13 @@ const NavBar = () => {
               <Link>Industry We Serve</Link>
             </li>
             <li>
-              <Link>Countries We Serve</Link>
+              <Link to="/countryWeServe">Countries We Serve</Link>
             </li>
             <li>
               <Link>Available Jobs</Link>
             </li>
             <li>
-              <Link>Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </li>
         </ul>
       </div>
