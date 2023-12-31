@@ -1,14 +1,14 @@
 import Sectiontitle from '../../../Component/SectionTitle/Sectiontitle';
-import visa1 from '../../../assets/suceesVisa/01.jpg'
-import visa2 from '../../../assets/suceesVisa/02.jpg'
-import visa3 from '../../../assets/suceesVisa/03.jpg'
-import visa4 from '../../../assets/suceesVisa/04.jpg'
+import visa1 from '../../../assets/suceesVisa/001.jpg'
+import visa2 from '../../../assets/suceesVisa/002.jpg'
+import visa3 from '../../../assets/suceesVisa/003.jpg'
+import visa4 from '../../../assets/suceesVisa/004.jpg'
 
 const OurSucees = () => {
     return (
         <div>
             <Sectiontitle heading="Our Success"></Sectiontitle>
-            <div className='grid grid-cols-2 gap-4'>
+            <div className='grid grid-cols-2 gap-12'>
             <div>
                 <img className='border' src={visa1} alt="" />
             </div>

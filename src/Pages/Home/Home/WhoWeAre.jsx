@@ -1,5 +1,5 @@
 import Sectiontitle from "../../../Component/SectionTitle/Sectiontitle";
-import aboutimg from '../../../assets/aboutus.jpg'
+import aboutimg from '../../../assets/aboutus-2.jpg'
 import missionimg from '../../../assets/mission.jpg';
 import visionimg from '../../../assets/vision.jpg'
 
@@ -53,7 +53,7 @@ const WhoWeAre = () => {
             <p>
          
           <span className="text-xl font-bold text-orange-500">
-            Our Mission:
+            Our vission:
           </span>
           <br />
           Our vision is to lead in the creation and delivery of innovative workforce solutions and services that enable our clients to win in the changing world of work and to be a leading recruiting service provider in the industry. 
