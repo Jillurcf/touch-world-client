@@ -35,8 +35,8 @@ const Aboutus = () => {
         for choosing Touch World International. We look forward to being your
         trusted partner in shaping a future of unparalleled success.
       </p>
-      <div className="flex justify-between gap-8">
-        <img className="w-2/6" src={aboutimg} alt="" />
+      <div className="lg:flex justify-between gap-8">
+        <img className="lg:w-2/6" src={aboutimg} alt="" />
         <p className="">
           <span className="text-xl font-bold text-orange-500">About us:</span>
           <br /> Touch World International is one of the leading
@@ -61,7 +61,7 @@ const Aboutus = () => {
           and overseas. .
         </p>
       </div>
-      <div className="flex my-12">
+      <div className="lg:flex my-12">
         <p className="py-8">
           <span className="text-xl font-bold text-orange-500">
             Our Mission:
@@ -74,13 +74,13 @@ const Aboutus = () => {
           countrys national economy by transforming its huge manpower into human
           resources.
         </p>
-        <img className="w-2/6" src={missionimg} alt="" />
+        <img className="lg:w-2/6" src={missionimg} alt="" />
       </div>
-      <div className="flex gap-8">
-        <img className="w-2/6" src={visionimg} alt="" />
+      <div className="lg:flex gap-8">
+        <img className="lg:w-2/6" src={visionimg} alt="" />
         <p>
           <span className="text-xl font-bold text-orange-500">
-            Our Vission:
+            Our Vision:
           </span>
           <br />
           Our vision is to lead in the creation and delivery of innovative
@@ -91,29 +91,29 @@ const Aboutus = () => {
       </div>
       
       <Sectiontitle heading="Our Team"></Sectiontitle>
-      <div className="grid grid-cols-2 gap-24">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-12">
         <div>
           <div className="flex justify-between">
             <div className=" mt-24">
-              <h1 className="text-4xl font-bold text-gray-600">
+              <h1 className="lg:text-4xl text-2xl font-bold text-gray-600 px-4">
                 Proprietor & Founder
               </h1>
-              <h1 className="text-4xl font-bold text-orange-400">Message</h1>
+              <h1 className="text-4xl font-bold text-orange-400 px-4">Message</h1>
             </div>
             <div className="">
               <img
-                className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30"
+                className="absolute pr-8 pb-4 lg:w-[200px] lg:h-[220px] w-[100px] h-[120px] z-30"
                 src={saiful}
                 alt="image"
               />
-              <div className=" relative w-[200px] h-[220px] bg-orange-500 top-3 z-10 rounded-full">
+              <div className=" relative lg:w-[200px] lg:h-[220px] w-[100px] h-[120px] bg-orange-500 top-3 z-10 rounded-full">
                
               </div>
             </div>
           </div>
           <div className="">
-            <h5 className="text-2xl font-bold text-red-800">Sayful Islam</h5>
-            <p className="text-justify">
+            <h5 className="text-2xl font-bold text-red-800 px-4">Sayful Islam</h5>
+            <p className="text-justify px-4">
               I am delighted to welcome you to a world of boundless exploration
               and unforgettable experiences. Our journey began with a simple but
               profound vision to transform travel into a transformative art,
@@ -134,27 +134,27 @@ const Aboutus = () => {
         <div>
           <div className="flex justify-between">
             <div className="mt-24">
-              <h1 className="text-4xl font-bold text-gray-600">
+              <h1 className="lg:text-4xl text-2xl font-bold text-gray-600 px-4">
                 Executive Chairman
               </h1>
-              <h1 className="text-4xl font-bold text-orange-400">Message</h1>
+              <h1 className="text-4xl font-bold text-orange-400 px-4">Message</h1>
             </div>
             <div className="">
               <img
-               className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30"
+               className="absolute pr-8 pb-4 lg:w-[200px] lg:h-[220px] w-[100px] h-[120px] z-30"
                 src={ruhul}
                 alt="image"
               />
-               <div className=" relative w-[200px] h-[220px] bg-orange-500 top-3 z-10 rounded-full">
+               <div className=" relative lg:w-[200px] w-[100px] h-[120px] lg:h-[220px] bg-orange-500 top-3 z-10 rounded-full">
                
                </div>
             </div>
           </div>
           <div className="">
-            <h5 className="text-2xl font-bold text-red-800">
+            <h5 className="text-2xl font-bold text-red-800 px-4">
               Major (Retd.) Md. Ruhul Amin
             </h5>
-            <p className="text-justify">
+            <p className="text-justify px-4">
               Communication, Connection and attitude of giving honest service
               are true keys to success in any field/endeavor and, it is ‘the
               most relevant strength of business. Accordingly we are determined
@@ -177,25 +177,25 @@ const Aboutus = () => {
         <div>
           <div className="flex justify-between">
             <div className="mt-24">
-              <h1 className="text-4xl font-bold text-gray-600">
+              <h1 className="lg:text-4xl text-2xl font-bold text-gray-600 px-4">
                 Co-founder & CEO
               </h1>
-              <h1 className="text-4xl font-bold text-orange-400">Message</h1>
+              <h1 className="text-4xl font-bold text-orange-400 px-4">Message</h1>
             </div>
             <div className="">
               <img
-                  className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30"
+                  className="absolute pr-8 pb-4 lg:w-[200px] lg:h-[220px] w-[100px] h-[120px] z-30"
                 src={sajib}
                 alt="image"
               />
-              <div className=" relative w-[200px] h-[220px] bg-orange-500 top-3 z-10 rounded-full">
+              <div className=" relative lg:w-[200px] lg:h-[220px] w-[100px] h-[120px] bg-orange-500 top-3 z-10 rounded-full">
                
                </div>
             </div>
           </div>
           <div className="">
-            <h5 className="text-2xl font-bold text-red-800">Sajib Paul</h5>
-            <p className="text-justify">
+            <h5 className="text-2xl font-bold text-red-800 px-4">Sajib Paul</h5>
+            <p className="text-justify px-4">
               An organization, no matter how well designed, is only as good as
               the people who live and work in it. – “Dee Hock” <br /> I believe
               in this valuable quote because throughout my 20 years of career
@@ -218,21 +218,21 @@ const Aboutus = () => {
         <div>
           <div className="flex justify-between">
             <div className="mt-24">
-              <h1 className="text-4xl font-bold text-gray-600">
+              <h1 className="lg:text-4xl text-xl font-bold text-gray-600 px-4">
                 Director of Liaison, <br /> BMET / Immigration
               </h1>
-              <h1 className="text-4xl font-bold text-orange-400">Message</h1>
+              <h1 className="text-4xl font-bold text-orange-400 px-4">Message</h1>
             </div>
             <div className="">
-              <img  className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30"src={Nayan} alt="image" />
-              <div className=" relative w-[200px] h-[220px] bg-orange-500 top-3 z-10 rounded-full">
+              <img  className="absolute pr-8 pb-4 lg:w-[200px] lg:h-[220px] w-[100px] h-[120px] z-30" src={Nayan} alt="image" />
+              <div className=" relative lg:w-[200px] lg:h-[220px] w-[100px] h-[120px] bg-orange-500 top-3 z-10 rounded-full">
                
                </div>
             </div>
           </div>
           <div className="">
-            <h5 className="text-2xl font-bold text-red-800">Nayan Khan</h5>
-            <p className="text-justify">
+            <h5 className="text-2xl font-bold text-red-800 px-4">Nayan Khan</h5>
+            <p className="text-justify px-4">
               Commitment needs to be on top priority... I tried to implement
               during my journey, over 14 years in the global recruitment
               process, and visa processing for different countries, expert in
@@ -251,21 +251,21 @@ const Aboutus = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-5 gap-24 mt-36">
-        <div className="">
+      <div className="grid lg:grid-cols-5 grid-cols-1 gap-24 mt-36">
+        <div className="mx-auto">
           <img
-            className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30  mx-auto "
+            className="absolute pr-8 pb-4 w-[200px] h-[220px] lg:w-[200px] lg:h-[220px] z-30  mx-auto "
             src={munir}
             alt="image"
           />
-             <div className=" relative w-[200px] h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
+             <div className=" relative w-[200px] h-[220px] lg:w-[200px] lg:h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
          <div className="py-8 text-center">
-         <h1 className="text-red-800 font-bold text-xl">MD Monir Hossain</h1>
-          <p>Business Development Director</p>
+         <h1 className="text-red-800 font-bold text-xl px-4">MD Monir Hossain</h1>
+          <p className="px-4">Business Development Director</p>
          </div>
          
         </div>
-        <div className="">
+        <div className="mx-auto">
           <img
             className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30  mx-auto "
             src={minhaj}
@@ -279,7 +279,7 @@ const Aboutus = () => {
           <p>Public Relation officer</p>
           </div>
         </div>
-        <div className="">
+        <div className="mx-auto">
           <img
              className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30  mx-auto "
             src={hasan}
@@ -291,7 +291,7 @@ const Aboutus = () => {
           <p>Engineer</p>
          </div>
         </div>
-        <div className="">
+        <div className="mx-auto">
           <img
              className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30  mx-auto "
             src={Rasel}
@@ -303,7 +303,7 @@ const Aboutus = () => {
           <p>Embassy Liaison / Accountant</p>
         </div>
         </div>
-        <div className="">
+        <div className="mx-auto">
           <img
             className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30  mx-auto "
             src={Ejaj}

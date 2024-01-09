@@ -21,7 +21,7 @@ const CountryCategory = () => {
 <div>
   <Sectiontitle heading="Services we provide" subHeading="Quality services is our commitment"></Sectiontitle>
 <Swiper
-      slidesPerView={4}
+      slidesPerView={3}
       spaceBetween={30}
       centeredSlides={true}
       pagination={{
@@ -33,23 +33,23 @@ const CountryCategory = () => {
     >
       <SwiperSlide>
         <img src={slide1} alt="" />
-        <h3 className="text-2xl text-center upercase -mt-36 font-bold text-white">Global Recruitment <br /> Services </h3>
+        <h3 className="lg:text-2xl text-center text-base upercase -mt-24 lg:-mt-36 font-bold text-white">Global Recruitment <br /> Services </h3>
         </SwiperSlide>
       <SwiperSlide>
       <img src={slide2} alt="" />
-      <h3 className="text-2xl text-center upercase -mt-36 font-bold text-white">     All kinds of Manpower <br /> recruitment </h3>
+      <h3 className="lg:text-2xl text-center text-base upercase -mt-24 lg:-mt-36 font-bold text-white">     All kinds of Manpower <br /> recruitment </h3>
       </SwiperSlide>
       <SwiperSlide>
         <img src={slide3} alt="" />
-        <h3 className="text-2xl text-center upercase -mt-36 font-bold text-white">   Immigration & Visa <br /> services , Air Ticket</h3>
+        <h3 className="lg:text-2xl text-center text-base upercase -mt-24 lg:-mt-36 font-bold text-white">   Immigration & Visa <br /> services , Air Ticket</h3>
       </SwiperSlide>
       <SwiperSlide>
         <img src={slide4} alt="" />
-        <h3 className="text-2xl text-center upercase -mt-36 font-bold text-white">  Outsourcing payroll <br /> compliance services </h3>
+        <h3 className="lg:text-2xl text-center text-base upercase -mt-24 lg:-mt-36 font-bold text-white">  Outsourcing payroll <br /> compliance services </h3>
       </SwiperSlide>
       <SwiperSlide>
         <img src={slide1} alt="" />
-        <h3 className="text-2xl text-center upercase -mt-36 font-bold text-white">SDC Overseas <br /> Technical Training & <br /> Testing Center</h3>
+        <h3 className="lg:text-2xl text-center text-base upercase -mt-24 lg:-mt-36 font-bold text-white">SDC Overseas <br /> Technical Training & <br /> Testing Center</h3>
         </SwiperSlide>
       
     </Swiper>

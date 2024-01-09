@@ -14,11 +14,12 @@ const SemiSkill = () => {
     return (
         <div>
              <Sectiontitle heading="Semi Skills"></Sectiontitle>
-            <div className="grid grid-cols-6 gap-8 mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 mx-auto">
            
             {
                 skills.map(skill=> <div key={skill.id}>
                     <img src={skill.img_url} alt="" />
+                    <p className="text-center">{skill.description}</p>
                 </div>)
             }
         </div>

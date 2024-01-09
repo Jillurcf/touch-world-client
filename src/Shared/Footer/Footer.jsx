@@ -5,14 +5,15 @@ const Footer = () => {
         <footer className="footer p-10 bg-blue-300 border text-blue-950">
   <aside>
     <img className='w-[200px]' src={logo} alt="" />
-    <p>Touch world Ltd.<br/>Providing reliable tech since 1992</p>
+    <p>Touch world International.<br/>All rights reserved by Touch world international</p>
   </aside> 
   <nav>
     <header className="footer-title">Services</header> 
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
+    <a className="link link-hover">Global Requirement Services</a>
+    <a className="link link-hover">Visa Services & Immigration</a>
+    <a className="link link-hover">Air Ticket</a>
+    <a className="link link-hover">Outsourcing Payroll Compliance Services</a>
+    <a className="link link-hover">Skill Developlment Center</a>
   </nav> 
   <nav>
     <header className="footer-title">Company</header> 

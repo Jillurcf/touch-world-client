@@ -10,7 +10,7 @@ const OurSpecializaitonSkilled = () => {
     },[])
 
     return (
-        <div className="grid grid-cols-6 gap-8 mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 mx-auto">
            {
             skills.map(skill=> <div key={skill.id}>
                 <div >

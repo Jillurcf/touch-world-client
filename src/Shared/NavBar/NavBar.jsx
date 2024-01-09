@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png'
 const NavBar = () => {
   return (
-    <div className="navbar h-24 max-w-screen-xl w-full fixed z-10 bg-gray-200 opacity-80">
+    <div className="navbar h-24 max-w-screen-xl w-full animate-pulse fixed z-10 bg-gray-200 opacity-80">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

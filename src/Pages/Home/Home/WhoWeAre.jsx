@@ -11,8 +11,8 @@ const WhoWeAre = () => {
         subHeading="We aim to engage the right person at the right place-Globally "
       ></Sectiontitle>
       <div className="">
-      <div className="flex justify-between gap-8">
-        <img className="w-2/6" src={aboutimg} alt="" />
+      <div className="lg:flex justify-between gap-8">
+        <img className="md:w-2/6" src={aboutimg} alt="" />
         <p className="">
           <span className="text-xl font-bold text-orange-500">About us:</span>
           <br /> Touch World International is one of the leading
@@ -38,7 +38,8 @@ const WhoWeAre = () => {
         </p>
       </div>
 
-        <div className="flex my-12">
+        <div className="grid lg:grid-cols-2 grid-cols-1">
+        <div className="w-8/10">
         <p className="py-8">
           <span className="text-xl font-bold text-orange-500">
             Our Mission:
@@ -46,14 +47,17 @@ const WhoWeAre = () => {
           <br />
           Our mission is to meet clients Human Resource needs completely by getting the perfect Employer-Employee fit and thereby the gap between the available talent pool in the market and the Dynamic Requirements of various companies across the globe and to contribute to the countrys national economy by transforming its huge manpower into human resources.
         </p>
-        <img className="w-2/6" src={missionimg} alt="" />
         </div>
-        <div className="flex gap-8">
-            <img className="w-2/6" src={visionimg} alt="" />
+       
+       <img className="md:w-2/3 lg:order-last order-first" src={missionimg} alt="" />
+     
+        </div>
+        <div className="lg:flex gap-8">
+            <img className="lg:w-2/6" src={visionimg} alt="" />
             <p>
          
           <span className="text-xl font-bold text-orange-500">
-            Our vission:
+            Our vision:
           </span>
           <br />
           Our vision is to lead in the creation and delivery of innovative workforce solutions and services that enable our clients to win in the changing world of work and to be a leading recruiting service provider in the industry. 
