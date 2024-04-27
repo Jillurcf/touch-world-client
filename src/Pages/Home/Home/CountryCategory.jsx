@@ -14,12 +14,15 @@ import slide2 from '../../../assets/home/slide2.jpg';
 import slide3 from '../../../assets/home/slide3.jpg';
 import slide4 from '../../../assets/home/slide4.jpg';
 import Sectiontitle from '../../../Component/SectionTitle/Sectiontitle';
+import { FaRegArrowAltCircleLeft } from "react-icons/fa";
+
 
 const CountryCategory = () => {
 
   return (
 <div>
   <Sectiontitle heading="Services we provide" subHeading="Quality services is our commitment"></Sectiontitle>
+  
 <Swiper
       slidesPerView={3}
       spaceBetween={30}
@@ -31,8 +34,13 @@ const CountryCategory = () => {
       className="mySwiper mb-24"
       
     >
+      
       <SwiperSlide>
-        <img src={slide1} alt="" />
+     <div className='relative'>
+     < FaRegArrowAltCircleLeft className='animate-pulse absolute top-[50%] left-[10%] text-6xl text-white' />
+        <img className='' src={slide1} alt="" />
+     </div>
+    
         <h3 className="lg:text-2xl text-center text-base upercase -mt-24 lg:-mt-36 font-bold text-white">Global Recruitment <br /> Services </h3>
         </SwiperSlide>
       <SwiperSlide>

@@ -6,7 +6,7 @@ import visa4 from '../../../assets/suceesVisa/004.jpg'
 
 const OurSucees = () => {
     return (
-        <div>
+        <div className='px-4 lg:px-0'>
             <Sectiontitle heading="Our Success"></Sectiontitle>
             <div className='grid grid-cols-2 gap-12'>
             <div>

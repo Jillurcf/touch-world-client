@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        bounce: {
+          '0%, 0%': { transform: 'rotate()' },
+          '0%': { transform: 'rotate()' },
+        }
+      }
+      
+    },
   },
   plugins: [require("daisyui")],
 }

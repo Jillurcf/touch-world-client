@@ -5,7 +5,7 @@ import visionimg from '../../../assets/vision.jpg'
 
 const WhoWeAre = () => {
   return (
-    <div>
+    <div className="px-4">
       <Sectiontitle
         heading="Who We are"
         subHeading="We aim to engage the right person at the right place-Globally "
@@ -13,7 +13,7 @@ const WhoWeAre = () => {
       <div className="">
       <div className="lg:flex justify-between gap-8">
         <img className="md:w-2/6" src={aboutimg} alt="" />
-        <p className="">
+        <p className="px-1 lg:px-0">
           <span className="text-xl font-bold text-orange-500">About us:</span>
           <br /> Touch World International is one of the leading
           government-approved recruiting agent as well as a complete overseas

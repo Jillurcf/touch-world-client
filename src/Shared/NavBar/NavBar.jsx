@@ -1,8 +1,26 @@
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png'
+import { useEffect, useState } from 'react';
 const NavBar = () => {
+  const [stickyClass, setStickyClass] = useState('relative');
+
+  useEffect(() => {
+    window.addEventListener('scroll', stickNavbar);
+    return () => {
+      window.removeEventListener('scroll', stickNavbar)
+    }
+  },[]);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      windowHeight > 100 ? setStickyClass('fixed top-0 left-0 z-50') : setStickyClass('relative')
+    }
+  }
   return (
-    <div className="navbar h-24 max-w-screen-xl w-full animate-pulse fixed z-10 bg-gray-200 opacity-80">
+  <>
+  <div className={`w-full flex justify-center ${stickyClass}`}>
+  <div className="navbar h-24 max-w-screen-xl animate-pulse fixed z-50 bg-gray-200 opacity-80">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -115,6 +133,9 @@ const NavBar = () => {
         <a className="btn btn-warning">Get Start</a>
       </div> */}
     </div>
+  </div>
+  
+  </>
   );
 };
 

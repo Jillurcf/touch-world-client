@@ -3,7 +3,7 @@ import Sectiontitle from "../../../Component/SectionTitle/Sectiontitle";
 
 const MemerShip = () => {
     return (
-        <div>
+        <div className="px-4 lg:px-0">
          
             <Sectiontitle heading="Membership"></Sectiontitle>
             <div className="grid grid-cols-4">

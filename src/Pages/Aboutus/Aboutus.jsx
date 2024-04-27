@@ -6,7 +6,7 @@ import saiful from "../../assets/OutTeam/executive/1.png";
 import ruhul from "../../assets/OutTeam/executive/2.png";
 import sajib from "../../assets/OutTeam/executive/3.png";
 import Nayan from "../../assets/OutTeam/executive/4.png";
-import munir from "../../assets/OutTeam/OthersMember/1.png";
+import munir from "../../assets/OutTeam/OthersMember/MunirHossain1.jpg";
 import minhaj from "../../assets/OutTeam/OthersMember/2.png";
 import hasan from "../../assets/OutTeam/OthersMember/3.png";
 import Rasel from "../../assets/OutTeam/OthersMember/4.png";
@@ -15,7 +15,7 @@ import legal from '../../assets/legaldoc.jpg'
 
 const Aboutus = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen px-4 lg:px-0">
       <div className="h-[100px]"></div>
       <Sectiontitle heading="About us"></Sectiontitle>
       <p>
@@ -76,9 +76,12 @@ const Aboutus = () => {
         </p>
         <img className="lg:w-2/6" src={missionimg} alt="" />
       </div>
-      <div className="lg:flex gap-8">
-        <img className="lg:w-2/6" src={visionimg} alt="" />
-        <p>
+      <div className="flex gap-8 flex-col-reverse lg:flex-row-reverse">
+       <div className="lg:w-1/2 lg:order-1">
+       <img className=" order-1" src={visionimg} alt="" />
+       </div>
+       <div>
+       <p className="">
           <span className="text-xl font-bold text-orange-500">
             Our Vision:
           </span>
@@ -88,6 +91,7 @@ const Aboutus = () => {
           changing world of work and to be a leading recruiting service provider
           in the industry.
         </p>
+       </div>
       </div>
       
       <Sectiontitle heading="Our Team"></Sectiontitle>
@@ -251,68 +255,72 @@ const Aboutus = () => {
           </div>
         </div>
       </div>
-      <div className="grid lg:grid-cols-5 grid-cols-1 gap-24 mt-36">
-        <div className="mx-auto">
+      {/* Member Part start from */}
+      <Sectiontitle className="" heading="Our Members"></Sectiontitle>
+     
+      <div className="grid lg:grid-cols-5 grid-cols-3 lg:gap-24 gap-8  lg:mt-24 mt-8 ">   
+        <div className="lg:mx-auto">
           <img
-            className="absolute pr-8 pb-4 w-[200px] h-[220px] lg:w-[200px] lg:h-[220px] z-30  mx-auto "
+            className="lg:rounded-full rounded-full absolute pr-8 pb-4 w-[100px] h-[110px] lg:w-[200px] lg:h-[220px] z-30  mx-auto "
             src={munir}
             alt="image"
           />
-             <div className=" relative w-[200px] h-[220px] lg:w-[200px] lg:h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
-         <div className="py-8 text-center">
-         <h1 className="text-red-800 font-bold text-xl px-4">MD Monir Hossain</h1>
-          <p className="px-4">Business Development Director</p>
+             <div className=" relative w-[80px] h-[100px] lg:w-[200px] lg:h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
+         <div className="py-8 lg:text-center">
+         <h1 className="text-red-800 font-bold lg:text-xl text-xs px-4">MD Monir Hossain</h1>
+          <p className="px-4 text-xs">Business Development Director</p>
          </div>
          
         </div>
         <div className="mx-auto">
           <img
-            className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30  mx-auto "
+           className="lg:rounded-full rounded-full absolute pr-8 pb-4 w-[100px] h-[110px] lg:w-[200px] lg:h-[220px] z-30  mx-auto "
+            // className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30  mx-auto "
             src={minhaj}
             alt="image"
           />
-           <div className=" relative w-[200px] h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
-          <div className="py-8 text-center">
-          <h1 className="text-red-800 font-bold text-xl">
+           <div className=" relative w-[80px] h-[100px] lg:w-[200px] lg:h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
+          <div className="py-8 lg:text-center">
+          <h1 className="text-red-800 font-bold lg:text-xl text-xs">
             Mohammad Minhazur Rahman
           </h1>
-          <p>Public Relation officer</p>
+          <p className="text-xs">Public Relation officer</p>
           </div>
         </div>
         <div className="mx-auto">
           <img
-             className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30  mx-auto "
+             className="lg:rounded-full rounded-full absolute pr-8 pb-4 w-[100px] h-[110px] lg:w-[200px] lg:h-[220px] z-30  mx-auto "
             src={hasan}
             alt="image"
           />
-           <div className=" relative w-[200px] h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
-         <div className="py-8 text-center">
-         <h1 className="text-red-800 font-bold text-xl">MD Hasan Al Mamun</h1>
-          <p>Engineer</p>
+           <div className=" relative w-[80px] h-[100px] lg:w-[200px] lg:h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
+         <div className="py-8 lg:text-center">
+         <h1 className="text-red-800 font-bold lg:text-xl text-xs">MD Hasan Al Mamun</h1>
+          <p className="text-xs">Engineer</p>
          </div>
         </div>
         <div className="mx-auto">
           <img
-             className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30  mx-auto "
+              className="lg:rounded-full rounded-full absolute pr-8 pb-4 w-[100px] h-[110px] lg:w-[200px] lg:h-[220px] z-30  mx-auto "
             src={Rasel}
             alt="image"
           />
-          <div className=" relative w-[200px] h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
-        <div className="py-8 text-center">
-        <h1 className="text-red-800 font-bold text-xl">Rasel Hossain</h1>
-          <p>Embassy Liaison / Accountant</p>
+          <div className=" relative w-[80px] h-[100px] lg:w-[200px] lg:h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
+        <div className="py-8 lg:text-center">
+        <h1 className="text-red-800 font-bold lg:text-xl text-xs">Rasel Hossain</h1>
+          <p className="text-xs">Embassy Liaison / Accountant</p>
         </div>
         </div>
         <div className="mx-auto">
           <img
-            className="absolute pr-8 pb-4 w-[200px] h-[220px] z-30  mx-auto "
+             className="lg:rounded-full rounded-full absolute pr-8 pb-4 w-[100px] h-[110px] lg:w-[200px] lg:h-[220px] z-30  mx-auto "
             src={Ejaj}
             alt="image"
           />
-           <div className=" relative w-[200px] h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
-          <div className="mt-8 text-center">
-          <h1 className="text-red-800 font-bold text-xl text-center">Ejaj Molla</h1>
-          <p>Office Executive</p>
+           <div className=" relative w-[80px] h-[100px] lg:w-[200px] lg:h-[220px] bg-orange-500 top-3 z-10 rounded-full"></div>
+          <div className="mt-8 lg:text-center">
+          <h1 className="text-red-800 font-bold lg:text-xl text-xs ">Ejaj Molla</h1>
+          <p className="text-xs">Office Executive</p>
           </div>
         </div>
       </div>

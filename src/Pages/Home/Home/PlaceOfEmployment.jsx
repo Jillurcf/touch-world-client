@@ -9,7 +9,7 @@ import flag6 from '../../../assets/flag/Servia.png'
 import Sectiontitle from "../../../Component/SectionTitle/Sectiontitle";
 const PlaceOfEmployment = () => {
   return (
-    <div className="mb-24 bg-blue-950 text-white">
+    <div className="mb-24 bg-blue-950 text-white px-4 lg:px-0">
         <Sectiontitle heading="Places of Employment"></Sectiontitle>
       <Marquee className="py-8">
       <img className="w-[200px] mr-12" src={flag4} alt="" />, <img className="w-[200px] mr-12" src={flag3} alt="" />, <img className="w-[200px] mr-12" src={flag2} alt="" />, <img className="w-[200px] mr-12" src={flag1} alt="" />,

@@ -2,10 +2,11 @@ import logo from '../../assets/logo.png'
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-blue-300 border text-blue-950">
+       <div>
+         <footer className="footer p-10 bg-blue-300 border text-blue-950">
   <aside>
     <img className='w-[200px]' src={logo} alt="" />
-    <p>Touch world International.<br/>All rights reserved by Touch world international</p>
+    <p>Touch world International. <br /> Suite No-5/11, Paltan China Town (4th Floor) Nayapaltan, VIP Road, Dhaka-1000 </p>
   </aside> 
   <nav>
     <header className="footer-title">Services</header> 
@@ -28,7 +29,14 @@ const Footer = () => {
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
   </nav>
+ 
 </footer>
+ <div className='lg:flex mx-auto gap-1 text-center'>
+ <p className='mx-auto text-xs lg:text-lg '>@All rights reserved by Touch world international</p>
+ <p className='text-xs mt-1'>Developed by <a className='underline text-blue-600' href="https://portfolio-59da3.web.app">Jillur Rahman</a> </p>
+ </div>
+ 
+       </div>
     );
 };
 
